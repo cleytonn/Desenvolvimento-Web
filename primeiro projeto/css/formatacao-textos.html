@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Formatações de textos</title>
+        <meta charset="utf-8" />
+        
+        <style type="text/css">
+            p{
+                font-size: 30px;
+                font-family: "Georgia";
+            }
+
+            .texto{
+                font-size: 16px;
+            }
+            
+            .negrito{
+                font-weight: 900;   /* 100 a 900 em negrito*/
+            }
+            
+            .estilo{
+                font-style: italic;
+                /*font-style: oblique;*/
+            }
+
+            .texto-padrao{
+                font: bold 40px "Palatino Lirotyme;,
+                "book antiqua", Palatino, serif;
+            }
+
+            .formatacao{
+/*              text-decoration: underline;
+                text-decoration: overline;*/
+                text-decoration: line-through;
+            }
+        </style>
+		
+	</head>
+
+	<body>
+        <div>
+            <p class="texto">
+                    Lorem ipsum <span class="formatacao"> dolor</span> sit amet
+                    Maecenas pretium tristique
+            </p>
+
+            <p class="negrito">Conteudo 1</p>
+
+            <p class="estilo">Conteudo 2</p>
+
+            <p class="estilo">Conteudo 3</p>
+
+            <p class="texto-padrao">Conteudo 4</p>
+        </div>
+        
+	</body>
+
+</html>
